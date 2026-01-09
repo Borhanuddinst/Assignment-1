@@ -44,13 +44,14 @@
     min-height: 520px;
     position: relative;
     color: #ffffff;
-    
 }
+
 .overlay{
     position: absolute;
     inset: 0;
-    background: #00000003;
+    background: #00000060;
 }
+
 .hero-center {
     position: relative;
     max-width: 850px;
@@ -71,30 +72,32 @@
     font-weight: 600;
 }
 
-.badge-icon{
-    font-weight: bold;
-}
 .hero-center h1 {
     font-size: 46px;
     line-height: 1.25;
     margin-top: 18px;
 }
+
 .highlight{
     color: #30B868;
 }
+
 .subtitle {
     margin-top: 14px;
     margin-bottom: 22px;
     font-size: 16px;
     opacity: .95;
 }
+
 .hero-buttons  {
     display: flex;
     justify-content: center;
     gap: 12px;
     flex-wrap: wrap;
 }
-.but-primary {
+
+.but-primary,
+.but-out{
     background: transparent;
     color: #ffffff;
     padding: 12px 20px;
@@ -102,20 +105,13 @@
     text-decoration: none;
     font-weight: 600;
     border: 1px solid #ffffff;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
 }
-.but-out {
-    background: transparent;
-    color: #ffffff;
-    padding: 12px 20px;
-    border-radius:8px;
-    text-decoration: none;
-    font-weight: 600;
-    border: 1px solid #ffffff;
 
-}
-.but-primary:hover{
-    background: #30B868;
-}
+.but-primary:hover,
 .but-out:hover{
     background: #30B868;
 }
@@ -169,7 +165,7 @@
     background: #ec7777;
     transform: scale(1.12);
 }
-/* ================================== */
+
 .solution{
     display: flex;
     align-items: center;
@@ -214,9 +210,6 @@
 .points li img {
     width: 20px;
 }
-
-
-
 
 .cta-section{
     padding: 0 20px 80px;
@@ -265,9 +258,51 @@
 .note{
     margin-top: 18px;
     color: #737272;
-    font-size: 14px;
+    font-size: 14px;}
+
+.footer{
+    background: #001428;
+    padding: 40px 80px;
+    color: #ffffff;
 }
 
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
 
+.footer-logo{
+    width: 55px;
+}
 
+.social-iconss{
+    display: flex;
+    gap: 14px;
+}
 
+.social-iconss a{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-iconss a:hover{
+    background: #30B868;
+    border-color: #30B868;
+}
+
+hr{
+    margin-top: 25px;
+    border-color: #6b7280;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 10px;
+}
