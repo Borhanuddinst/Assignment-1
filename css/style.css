@@ -88,7 +88,7 @@
     font-size: 16px;
     opacity: .95;
 }
-.hero-buttons {
+.hero-buttons  {
     display: flex;
     justify-content: center;
     gap: 12px;
@@ -106,7 +106,7 @@
 .but-out {
     background: transparent;
     color: #ffffff;
-    padding: 12px;
+    padding: 12px 20px;
     border-radius:8px;
     text-decoration: none;
     font-weight: 600;
@@ -141,10 +141,10 @@
     gap: 18px;
 }
  .note-card {
-    background: #e1e1e1f4;
+    background: #e1e1d2ca;
     padding: 20px;
-    border-radius: 14px;
-    box-shadow: 0 2px 12px #2e2e2e;
+    border-radius: 6px;
+
 }
 .note-icon{
     width: 54px;
@@ -166,7 +166,7 @@
     transition: 0.25s ease;
 }
 .note-card:hover .note-icon{
-    background: #eeb7b7;
+    background: #ec7777;
     transform: scale(1.12);
 }
 /* ================================== */
@@ -214,6 +214,60 @@
 .points li img {
     width: 20px;
 }
+
+
+
+
+.cta-section{
+    padding: 0 20px 80px;
+    display: flex;
+    justify-content: center;
+}
+.cta-box {
+    max-width: 900px;
+    width: 100%;
+    background: #edf1d283;
+    border-radius: 5px;
+    padding: 60px 30px;
+    text-align: center;
+    margin-top:0 ;
+}
+.cta-box h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.subtitle{
+    color: #737272;
+    margin-bottom: 25px;
+}
+.cta-button {
+    background: transparent;
+    color: #0a0a0a;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    border: 2px solid #30B868;
+}
+
+.cta-button:hover{
+    background: #30B868;
+    color: #ffffff;
+}  
+    
+
+.but-out{
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+}
+.note{
+    margin-top: 18px;
+    color: #737272;
+    font-size: 14px;
+}
+
 
 
 
